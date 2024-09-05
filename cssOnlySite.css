@@ -1,0 +1,39 @@
+/* Basic Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Container for content */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+
+/* Using ::before and ::after to add content */
+.content::before {
+    content: "Welcome to My Personal Information Page";
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #4CAF50;
+}
+
+.content::after {
+    content: "My name is Martin Otis. \a Currently I live in Covington, Kentucky but I'm originally from Minnesota. \a I am 52 years old.";
+    display: block;
+    white-space: pre-wrap; /* Preserves line breaks */
+    font-size: 1.2rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+    white-space: pre-wrap;
+}
