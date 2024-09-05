@@ -5,4 +5,4 @@ An ultra simplified HTML doc is still required to create some basic structure, t
 To view the site locally:
 
 1. Clone this repo to your local machine
-2. OPen the cssOnlySite.html file in the browser of your choice
+2. Open the cssOnlySite.html file in the browser of your choice
